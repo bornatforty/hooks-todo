@@ -44,7 +44,7 @@ function App() {
   };
   if (count == 0) {
     return (
-      <div>
+      <div className="App">
         <h1>Your list is complete</h1>
         <form onSubmit={handleSubmit}>
           <input
@@ -59,7 +59,7 @@ function App() {
     );
   } else if (count == 1) {
     return (
-      <div>
+      <div className="App">
         <h1>{count} thing remaining on your list</h1>
         <h5>{items}</h5>
         <form onSubmit={handleSubmit}>

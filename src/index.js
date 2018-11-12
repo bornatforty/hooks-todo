@@ -57,7 +57,7 @@ function App() {
         <button onClick={addTodo}>Add To-do</button>
       </div>
     );
-  } else if {
+  } else if (count == 1) {
     return (
       <div>
         <h1>{count} thing remaining on your list</h1>
@@ -73,6 +73,8 @@ function App() {
         <button onClick={addTodo}>Add To-do</button>
       </div>
       )
+  }
+  }
   }
   return (
     <div className="App">

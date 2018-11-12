@@ -57,6 +57,22 @@ function App() {
         <button onClick={addTodo}>Add To-do</button>
       </div>
     );
+  } else if {
+    return (
+      <div>
+        <h1>{count} thing remaining on your list</h1>
+        <h5>{items}</h5>
+        <form onSubmit={handleSubmit}>
+          <input
+            type="text"
+            value={value}
+            className="input"
+            onChange={e => setValue(e.target.value)}
+            />
+        </form>
+        <button onClick={addTodo}>Add To-do</button>
+      </div>
+      )
   }
   return (
     <div className="App">

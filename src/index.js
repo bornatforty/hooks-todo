@@ -70,7 +70,7 @@ function App() {
             />
         </form>
         <button onClick={addTodo}>Add To-do</button>
-        <h5>{items}</h5>
+        <h4>{items}</h4>
       </div>
       )
   }
@@ -86,7 +86,7 @@ function App() {
         />
       </form>
       <button onClick={addTodo}>Add To-do</button>
-      <h5>{items}</h5>
+      <h4>{items}</h4>
     </div>
   );
 }

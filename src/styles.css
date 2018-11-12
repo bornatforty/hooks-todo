@@ -26,6 +26,9 @@ input {
 	width: 50%;
 	border: none;
 }
+input:focus, button:focus {
+	outline: transparent;
+}
 button {
 	border-radius: 10px;
 	padding: 0.5em;

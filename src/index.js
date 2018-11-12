@@ -75,7 +75,6 @@ function App() {
       )
   }
   }
-  }
   return (
     <div className="App">
       <h1>{count} things on your list to complete</h1>

@@ -10,8 +10,8 @@ function App() {
   const items = todos.map((d, index) => (
     <div key={index} style={{ textDecoration: d.isDone ? "line-through" : "" }}>
       {d.text}
-      <button onClick={() => completeTodo(index)}>Complete</button>
-      <button onClick={() => removeTodo(index)}>Delete</button>
+      <button onClick={() => completeTodo(index)} className="complete">Complete</button>
+      <button onClick={() => removeTodo(index)} className="delete">Delete</button>
     </div>
   ));
 

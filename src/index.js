@@ -61,7 +61,6 @@ function App() {
     return (
       <div className="App">
         <h1>{count} thing remaining on your list</h1>
-        <h5>{items}</h5>
         <form onSubmit={handleSubmit}>
           <input
             type="text"
@@ -71,13 +70,13 @@ function App() {
             />
         </form>
         <button onClick={addTodo}>Add To-do</button>
+        <h5>{items}</h5>
       </div>
       )
   }
   return (
     <div className="App">
       <h1>{count} things on your list to complete</h1>
-      <h5>{items}</h5>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
@@ -87,6 +86,7 @@ function App() {
         />
       </form>
       <button onClick={addTodo}>Add To-do</button>
+      <h5>{items}</h5>
     </div>
   );
 }
